@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+/*
+SA0001: I Sami Nachwati, 000879289 certify that this material is 
+my original work. No other person's work has been used without due 
+acknowledgement. I have not made my work available to anyone else.
+Author: Sami Nachwati
+Name: Sami Nachwati
+Student ID: 000879289
+file: styling_page.css
+page description: the styling of the display for the functions and the overall index webpage 
+*/
+#bg {
+    background-color: #B39CD0;
+}
+
+header {
+    background: #845EC2;
+    margin-bottom: 20px;
+    animation: color-change 5s ease infinite;
+}
+
+@keyframes color-change {
+    0% {
+        color: #B39CD0;
+    }
+    20% {
+        color: pink;
+    }
+
+    40% {
+        color: lightpink;
+    }
+
+    60% {
+        color: palevioletred;
+    }
+
+    80% {
+        color: plum;
+    }
+
+    100%{
+        color: purple;
+    }
+}
+
+
+section {
+    display: flex;
+    flex-flow: column wrap;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.titles{
+    color: purple;
+    background-color: plum;
+}
+
+
+#firstfunction, #secondfunction, #thirdfunction, #fourthfunction, #fifthfunction{ 
+    background-color: pink; 
+    padding: 20px;
+    margin-top: 100px;
+}
+
+@media (max-width: 300px){
+    section, header{
+        margin-right: -50px;
+        margin-left: -5px;
+    }
+}
+
+
+span {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: left;
+}
+
+main:last-child{
+    padding-bottom: 200px;
+}
+
+textarea, h2.buttons button{
+    width: 100%;
+}
+
+#Output_1, #Output_2, #Output_3, #Output_4, #Output_5 {
+    background-color:  #845EC2;
+}

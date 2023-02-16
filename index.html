@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        SA0001: I Sami Nachwati, 000879289 certify that this material is 
+        my original work. No other person's work has been used without due 
+        acknowledgement. I have not made my work available to anyone else.
+        Author: Sami Nachwati
+        Student ID: 000879289
+        File: index.html
+        description: AN HTML file which outputs the result of 
+        the functions to the user. 
+    -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link href="styling_page.css" rel="stylesheet">
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet" 
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+    crossorigin="anonymous">
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
+    crossorigin="anonymous"></script>
+    <script src="mechanics.js"></script>
+    
+</head>
+<body id="bg">
+    <header class="color text-center p-3">
+        <h2>
+            Name: Sami Nachwati
+            <br>
+            ID: 000879289
+        </h2>
+    </header>
+    <main>
+    <section id="firstfunction" class="functions">
+            <h2 class="titles">
+                Group 1 Choice 1
+            </h2> 
+            <h5 class="pb-1">
+              Read the input from the document, if the input is numeric and if the input is 0, 
+              or if it's between 13 and 17 inclusive, output “In range” otherwise output 
+              “Out of range”. If it's not a number output “Not a number”.
+            </h5>
+            <h3>Input:</h3>
+            <input type="text" id="q1_input" class="mb-3">
+            <h2 class="buttons">
+                <button id="Output_1" class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" onclick="group_1_choice_1()">
+                    <span class="output_message">Output (Click here):</span>
+                </button>
+            </h2>
+            <div class="collapse" id="collapseOne">
+                <div>
+                    <textarea id="q1_output" readonly></textarea>
+                </div>
+            </div>
+    </section>
+
+    <section id="secondfunction" class="functions"> 
+        <h2 class="titles">
+            Group 1 Choice 3
+        </h2>
+        <h5 class="pb-1">
+            Read the input from the document and interpret it as the length of the side of a square if it is 
+            numeric and greater than or equal to 0. Output the perimeter (4*side) and area (side*side) of 
+            the square. If it is not a number output “Can't calculate”.
+        </h5>
+        <h3>Input:</h3>
+        <input type="text" id="q2_input" class="mb-3">
+        <h2 class="buttons">
+            <button id="Output_2" class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" onclick="group_1_choice_3()">
+                <span class="output_message">Output (Click here):</span>
+            </button>
+        </h2>
+        <div class="collapse" id="collapseTwo">
+            <div>
+                <textarea id="q2_output" readonly></textarea>
+            </div>
+        </div>
+    </section>
+
+    <section id="thirdfunction" class="functions"> 
+        <h2 class="titles">
+            Group 2 Choice 1
+        </h2>
+        <h5 class="pb-1">
+            Read the input from the document and if the input is 
+            “a”, “e”, “i”, “o”, or “u” output “A Vowel”. 
+            If the input is “y” output “Sometimes”. In all
+            other cases output “Not a vowel”. Your function 
+            should be case insensitive, i.e., “A” or “a”
+            would both show “A Vowel”.
+        </h5>
+        <h3>Input:</h3>
+        <input type="text" id="q3_input" class="mb-3">
+        <h2 class="buttons">
+            <button id="Output_3" class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" onclick="group_2_choice_1()">
+                <span class="output_message">Output (Click here):</span>
+            </button>
+        </h2>
+        <div class="collapse" id="collapseThree">
+            <div>
+                <textarea id="q3_output" readonly></textarea>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="fourthfunction" class="functions"> 
+        <h2 class="titles">
+            Group 2 Choice 2
+        </h2>
+        <h5 class="pb-1">
+            Read the input from the document. 
+            If it is a positive integer, output the
+            factorial of the input value. Otherwise,
+            output “Cannot compute factorial value”. 
+            The factorial function is defined as 
+            multiply all the numbers from 1 to the 
+            value together. For example, the factorial 
+            of 5 is 5*4*3*2*1 = 120. Only compute this 
+            value using a loop, no other formulations 
+            are allowed. 
+        </h5>
+        <h3>Input:</h3>
+        <input type="text" id="q4_input" class="mb-3">
+        <h2 class="buttons">
+            <button id="Output_4" class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" onclick="group_2_choice_2()">
+                <span class="output_message">Output (Click here):</span>
+            </button>
+        </h2>
+        <div class="collapse" id="collapseFour">
+            <div>
+                <textarea id="q4_output" readonly></textarea>
+            </div>
+        </div>
+    </section>
+
+    <section id="fifthfunction" class="functions"> 
+        <h2 class="titles">
+            Group 3 Choice 1
+        </h2>
+        <h5 class="pb-1">
+            Read the input from the document. This string must
+            be between 10 and 20 characters long, 
+            inclusive, and consist of only 0's and 1s. 
+            If the string does not meet these conditions, 
+            output the result 0. If the input is valid then 
+            interpret it as a binary number. Using only loops and substring 
+            operations calculate the integer value of the 
+            binary number. For simplicity, we will assume 
+            “little endian” numbers ... the smallest number is 
+            on the left and get bigger moving to the right. 
+            Recall that binary values are powers of 2, 
+            with the first few values being 20 = 1, 21 = 2, 20 + 21 = 3, etc
+        </h5>
+        <h3>Input:</h3>
+        <input type="text" id="q5_input" class="mb-3">
+        <h2 class="buttons">
+            <button id="Output_5" class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" onclick="group_3_choice_1()">
+                <span class="output_message">Output (Click here):</span>
+            </button>
+        </h2>
+        <div class="collapse" id="collapseFive">
+            <div>
+                <textarea id="q5_output" readonly></textarea>
+            </div>
+        </div>
+    </section>
+    </main>
+</body>
+</html>
