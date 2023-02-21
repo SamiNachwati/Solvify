@@ -1,10 +1,5 @@
 /*
-SA0001: I Sami Nachwati, 000879289 certify that this material is 
-my original work. No other person's work has been used without due 
-acknowledgement. I have not made my work available to anyone else.
 Author: Sami Nachwati
-Name: Sami Nachwati
-Student ID: 000879289
 file: mechanics.js
 page description: a JS file containing the functions for the index webpage 
 */
